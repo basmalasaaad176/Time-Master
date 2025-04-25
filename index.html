@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TimeMaster Countdown</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="countdown-container text-center">
+          <h1 class="app-title">Time Master</h1>
+          
+          <div class="input-group mb-3">
+            <input type="text" id="timerInput" class="form-control timer-input" placeholder="MM:SS" />
+          </div>
+          <p class="instructions text-start">Enter time in MM:SS format (e.g., 05:30 for 5 minutes and 30 seconds)</p>
+          
+          <div id="timerDisplay" class="d-flex justify-content-center align-items-center">
+            00:00
+          </div>
+          
+          <div class="buttons d-flex justify-content-center gap-3">
+            <button id="startBtn" class="btn btn-primary btn-control">
+              Start
+            </button>
+            <button id="pauseBtn" class="btn btn-warning btn-control">
+              Pause
+            </button>
+            <button id="resetBtn" class="btn btn-danger btn-control">
+              Reset
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</html>

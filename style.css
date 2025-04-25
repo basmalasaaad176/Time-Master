@@ -1,0 +1,52 @@
+body {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+}
+.countdown-container {
+  max-width: 500px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 2rem;
+}
+.app-title {
+  color: #333333;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+#timerDisplay {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+.timer-input {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.btn-control {
+  min-width: 100px;
+  background-color: #2ECC71;
+  border-color: #2ECC71;
+}
+.btn-control:hover {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+.warning {
+  color: #e74c3c;
+}
+.instructions {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
